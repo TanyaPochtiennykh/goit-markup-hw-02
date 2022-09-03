@@ -1,0 +1,18 @@
+/* background color #F5F5F5 */
+/* logo: black #000000 blue #2196F3 */
+/* nav active color #2196F3 */
+/* main text color (p) #757575 */
+/* h2, filter links  #212121 */
+/* button text color #FFFFFF */
+/* Bg color main page #2F303A */
+/* sections background #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #f5f4fa;
+  --button-text-color: #ffffff;
+  --background-header-color: #2f303a;
+  --background-color: #f5f5f5;
+}
