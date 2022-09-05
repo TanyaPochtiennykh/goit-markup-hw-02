@@ -35,7 +35,7 @@ footer {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 /* Site nav */
@@ -44,7 +44,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  line-height: 16px; /* check it */
+  line-height: 1.14;
   text-decoration: none;
   font-style: normal;
 }
@@ -52,13 +52,7 @@ footer {
 .site-nav .link:focus,
 .header-address .link:hover,
 .header-address .link:focus,
-.buttons-filter .link:hover,
-.buttons-filter .link:focus
-{
-  color: var(--accent-color);
-}
-.site-nav .link.current,
-.filters-button .link.current {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .header-address .link {
@@ -66,7 +60,7 @@ footer {
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.02em;
-  line-height: 16px;
+  line-height: 1.06;
   text-decoration: none;
   font-style: normal;
 }
@@ -78,7 +72,7 @@ footer {
   font-weight: 900;
   font-size: 44px;
   letter-spacing: 0.06em;
-  line-height: 60px;
+  line-height: 1.36;
 }
 button {
   color: var(--button-text-color);
@@ -86,27 +80,25 @@ button {
   font-weight: 700;
   font-size: 16px;
   font-family: inherit;
-  line-height: 30px;
+  line-height: 1.87;
   cursor: pointer;
   border: none;
 }
 .visually-hidden {
   visibility: hidden;
 }
-.why-we h3
- {
+.why-we h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--title-and-nav-text-color);
   text-transform: uppercase;
 }
-.why-we p
-{
+.why-we p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 00.03em;
   color: var(--primary-text-color);
 }
@@ -114,47 +106,69 @@ button {
 .who-we-are h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--title-and-nav-text-color);
 }
-.who-we-are h3, 
-.portfolio h3 {
+.who-we-are h3
+{
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-and-nav-text-color);
 }
-.who-we-are p,
-.portfolio p
+.who-we-are p
 {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* portfolio page styling */
 
-.buttons-filter .link
- {
+.buttons-filter .link {
   color: var(--title-and-nav-text-color);
   background-color: var(--filter-unactive-background);
   padding: 6px 25px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
-  line-height: 26px;
+  line-height: 1.63;
   text-decoration: none;
   font-style: normal;
   border: none;
 }
+.buttons-filter .link:hover,
+.buttons-filter .link:focus,
+.buttons-filter .link.current {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+}
+.portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-and-nav-text-color);
+}
+
+.portfolio p 
+{
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* footer page */
+
 .bottom-address .link {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
