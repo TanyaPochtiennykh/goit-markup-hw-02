@@ -2,42 +2,47 @@
 <html lang="uk">
   <head>
     <meta charset="utf-8" />
-    <meta name="домашне завдання" content="device-width, initial-scale=1.0" />
+    <meta name="домашне завдання 1" content="device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="/mystyles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- шапка сайту -->
     <header>
-      <a href="index.html">WebStudio</a>
+      <a href="index.html" class="logo">Web<span style="color: #000">Studio</span></a>
       <nav>
-        <ul>
-          <li><a href="index.html">Студія</a></li>
-          <li><a href="portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <ul class="site-nav list">
+          <li><a href="index.html" class="link current">Студія</a></li>
+          <li><a href="portfolio.html" class="link">Портфоліо</a></li>
+          <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
       <!-- Репета включив контантні дані до навігації, Марія говорила, 
         що можна включати, можна ні 
     -->
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="header-address list">
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </header>
     <main>
       <!-- hero section -->
-      <section>
+      <section class="hero">
         <div>
-          <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+          <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br>ВАШОГО БІЗНЕСУ</h1>
           <button>Замовити послугу</button>
         </div>
       </section>
       <!-- why we section -->
-      <section>
-        <h2>Наші переваги</h2>
-        <ul>
+      <section class="why-we">
+        <h2 class="visually-hidden">Наші переваги</h2>
+        <ul class="list">
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
@@ -68,9 +73,9 @@
         </ul>
       </section>
       <!-- what we do section-->
-      <section>
+      <section class="what-we-do">
         <h2>Чим ми займаємося</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/what-we-do-1.jpg"
@@ -98,9 +103,9 @@
         </ul>
       </section>
       <!-- who are we section-->
-      <section>
+      <section class="who-we-are">
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/igor-1.jpg"
@@ -146,18 +151,19 @@
     </main>
     <!-- footer -->
     <footer>
-      <a href="">WebStudio</a>
+      <a href="index.html" class="logo">Web<span style="color: #fff">Studio</span></a>
       <address>
-        <ul>
-        <li><a
-          href="https://goo.gl/maps/deZjhRoP4em1tksg8"
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          >М. Київ,<br />просп. Лесі Українки, 26</a
-        ></li>
-        
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="bottom-address list">
+          <li>
+            <a
+              href="https://goo.gl/maps/deZjhRoP4em1tksg8"
+              target="_blank"
+              rel="noopener noreferrer nofollow" class="link"
+              >М. Київ,<br />просп. Лесі Українки, 26</a
+            >
+          </li>
+          <li><a href="mailto:info@devstudio.com" class="link"> <span style="color: rgba(255,255, 255, 0.6)">info@devstudio.com</span></a></li>
+          <li><a href="tel:+380961111111" class="link"> <span style="color: rgba(255,255, 255, 0.6)">+38 096 111 11 11</span></a></li>
         </ul>
       </address>
     </footer>
