@@ -161,7 +161,7 @@ button:focus {
   border: none;
 }
 .portfolio .link:hover,
-.portfolio .link:focus,
+/*.portfolio .link:focus,*/
 .portfolio .link.current {
   color: var(--button-text-color);
   background-color: var(--accent-color);
